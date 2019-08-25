@@ -8,6 +8,14 @@
   background: linear-gradient(#7AECF9, #1DA3B5);
 }
 
+#bottom-bg.overlay {
+  opacity: .3;
+  z-index: 14;
+  width: 100%;
+  position: absolute;
+  margin-top: 50vh;
+}
+
 .wave1 {
   height: 30px;
   width: 100%;
@@ -41,6 +49,13 @@
 
 .wave1 {
   background: url('../../assets/wave1.png') 0 0 repeat-x;
+  margin-top: calc(50vh - 30px);
+  position: absolute;
+}
+
+.wave1.overlay {
+  z-index: 14;
+  opacity: .3;
 }
 
 .contenedor-flex {
@@ -56,6 +71,7 @@
   max-width: 1024px;
   margin-top: calc(50vh - 5em);
   font-family: 'RedHatDisplay', sans-serif;
+  z-index: 13;
 }
 
 #contenedor-logo h1 {
