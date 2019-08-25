@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+  color: #444444;
+  min-height: 100vh;
+}
+
+#logo {
+  margin: 0 auto;
+  padding-top: 25vh;
+  text-align: center;
+  font-size: 10vw;
+}
+
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url('../../assets/RedHatDisplay-Regular.otf');
+}
+
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url('../../assets/RedHatDisplay-Bold.otf');
+  font-weight: bold;
+}
