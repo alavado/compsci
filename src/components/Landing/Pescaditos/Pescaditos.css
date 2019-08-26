@@ -1,16 +1,39 @@
 #pescaditos {
   position: absolute;
   margin-top: 65vh;
-  margin-left: 0;
   width: 100%;
   height: 35vh;
   overflow: hidden;
   animation: mover-agua 2.5s linear infinite;
+  z-index: 20;
 }
 
 .pescadito {
   position: absolute;
-  transition: margin-left 5s ease-in-out, margin-top 5s ease-in-out, transform .5s ease-in-out;
+  transition: all 5s ease-in-out;
+  cursor: pointer;
+}
+
+.pescadito svg {
+  transition: transform .5s ease-in-out;
+  color: #388D98;
+}
+
+.comentario-pescadito {
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  background: #E6FCFF;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: .8em;
+}
+
+.comentario-pescadito > p {
+  font-family: 'RedHatDisplay', sans-serif;
+}
+
+.pescadito:hover .comentario-pescadito {
+  opacity: 1;
 }
 
 @keyframes mover-agua {
@@ -18,7 +41,7 @@
     transform: translateY(0px)
   }
   50% {
-    transform: translateY(10px)
+    transform: translateY(-10px)
   }
   100% {
     transform: translateY(0px)
