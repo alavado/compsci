@@ -1,5 +1,5 @@
 #top-bg {
-  background: linear-gradient(#91BDFF, #C5F3FF);
+  background: linear-gradient(#91BDFF, #91BDFF 10%, #C5F3FF);
   height: 50vh;
 }
 

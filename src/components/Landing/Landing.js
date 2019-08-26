@@ -1,10 +1,12 @@
 import React from 'react';
 import './Landing.css'
 import Pescaditos from './Pescaditos';
+import MenuNavegacion from '../MenuNavegacion';
 
 const Landing = () => {
   return (
     <React.Fragment>
+      <MenuNavegacion />
       <div id="top-stuff">
         <div className="wave1"></div>
         <div className="wave1 overlay"></div>

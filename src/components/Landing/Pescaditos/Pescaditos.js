@@ -5,11 +5,11 @@ import Pescadito from './Pescadito';
 const Pescaditos = () => {
   return (
     <div id="pescaditos">
-      <Pescadito comentario="aplicaciones web progresivas" />
-      <Pescadito comentario="inteligencia artificial" />
-      <Pescadito comentario="ciencia de datos" />
-      <Pescadito comentario="internet de las cosas" />
-      <Pescadito comentario="aplicaciones nativas" />
+      <Pescadito comentario="Apps web progresivas" />
+      <Pescadito comentario="Inteligencia artificial" />
+      <Pescadito comentario="Ciencia de datos" />
+      <Pescadito comentario="Web browser APIs" />
+      <Pescadito comentario="Edge computing" />
     </div>
   );
 };
