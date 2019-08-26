@@ -1,0 +1,10 @@
+#pescaditos {
+  position: absolute;
+  margin-top: 65vh;
+  margin-left: 0;
+}
+
+.pescadito {
+  position: absolute;
+  transition: margin-left 5s ease-in-out, margin-top 5s ease-in-out, transform .5s ease-in-out;
+}
