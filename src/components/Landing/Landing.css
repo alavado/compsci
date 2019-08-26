@@ -3,12 +3,12 @@
   height: 50vh;
 }
 
-#bottom-bg {
+.bottom-bg {
   height: 50vh;
   background: linear-gradient(#7AECF9, #1DA3B5);
 }
 
-#bottom-bg.overlay {
+.bottom-bg.overlay {
   opacity: .3;
   z-index: 14;
   width: 100%;

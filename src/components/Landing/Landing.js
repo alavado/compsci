@@ -11,7 +11,7 @@ const Landing = () => {
         <div className="wave1"></div>
         <div className="wave1 overlay"></div>
         <Pescaditos />
-        <div id="bottom-bg" className="overlay"></div>
+        <div className="bottom-bg overlay"></div>
         <div className="contenedor-flex">
           <div id="contenedor-logo">
             <h1>Compsci</h1>
@@ -20,7 +20,7 @@ const Landing = () => {
           </div>
         </div>
         <div id="top-bg"></div>
-        <div id="bottom-bg"></div>
+        <div className="bottom-bg"></div>
       </div>
       <div id="bla">
         asdasd
