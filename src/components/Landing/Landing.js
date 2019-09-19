@@ -1,8 +1,8 @@
 import React from 'react';
 import './Landing.css'
 import Pescaditos from './Pescaditos';
+import Cotizador from '../Cotizador';
 // import MenuNavegacion from '../MenuNavegacion';
-import Cotizador from './Cotizador/Cotizador';
 
 const Landing = () => {
   return (

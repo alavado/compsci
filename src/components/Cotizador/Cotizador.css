@@ -1,0 +1,62 @@
+#cotizador {
+  margin-top: 16px;
+  position: absolute;
+}
+
+#interfaz-cotizador {
+  background: rgb(20, 109, 121);
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  letter-spacing: .15rem;
+  text-align: center;
+  transition: all .5s ease-in-out;
+  margin-left: 16px;
+}
+
+#interfaz-cotizador.modo-boton {
+  cursor: pointer;
+  outline: none;
+  width: 330px;
+  margin-top: 0vh;
+  height: 28px;
+}
+
+#interfaz-cotizador.modo-formulario {
+  width: 920px;
+  margin-top: -50vh;
+  height: 90vh;
+}
+
+#interfaz-cotizador h1 {
+  font-family: 'RedHatDisplay' sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+#interfaz-cotizador.modo-boton:hover {
+  background: #1FA5B7;
+}
+
+#contenedor-cotizacion {
+  display: flex;
+  flex-direction: column;
+}
+
+#boton-cerrar-cotizador {
+  cursor: pointer;
+  margin-top: -24px;
+  transition: opacity .25s ease-in-out .25s;
+  align-self: flex-end;
+}
+
+#interfaz-cotizador.modo-boton #boton-cerrar-cotizador {
+  opacity: 0;
+}
+
+#interfaz-cotizador.modo-formulario #boton-cerrar-cotizador {
+  display: inline-block;
+  opacity: 1;
+}

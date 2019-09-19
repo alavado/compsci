@@ -87,25 +87,3 @@
   margin-top: 16px;
   margin-left: 16px;
 }
-
-#contenedor-logo button {
-  color: white;
-  background: #1D77FF;
-  border: none;
-  padding: 16px 32px;
-  text-transform: uppercase;
-  font-family: 'RedHatDisplay' sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-radius: 8px;
-  margin-left: 16px;
-  margin-top: 24px;
-  cursor: pointer;
-  outline: none;
-  letter-spacing: .15rem;
-  transition: background-color .25s ease-in-out;
-}
-
-#contenedor-logo button:hover {
-  background: #0054D2;
-}
