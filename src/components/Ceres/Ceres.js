@@ -5,9 +5,8 @@ import { faFish } from '@fortawesome/free-solid-svg-icons';
 
 const Ceres = () => {
 
-  const hablar = () => {
-    document.getElementById('habla-salmon-ceres').classList.add('habla-visible')
-    console.log('hablar');
+  const hablar = hablo => {
+    document.getElementById('habla-salmon-ceres').style.opacity = hablo ? 1 : 0
   }
 
   return (
@@ -16,7 +15,7 @@ const Ceres = () => {
         <div id="habla-salmon-ceres">
           Soy un salmón
         </div>
-        <div onMouseOver={hablar}>
+        <div onMouseOver={() => hablar(true)} onMouseOut={() => hablar(false)} >
           <FontAwesomeIcon icon={faFish} size="6x" />
         </div>
         <a href="http://abarzuaingenieria.cl/simulador-ceres-bca.exe">Descargar Simulador Ceres BCA</a>

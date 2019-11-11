@@ -37,9 +37,8 @@
 
 #habla-salmon-ceres {
   opacity: 0;
-  transition: all .25s ease-in-out;
-}
-
-#habla-salmon-ceres .habla-visible {
-  opacity: 1;
+  transition: all .5s ease-in-out;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 8px;
+  border-radius: 8px;
 }
