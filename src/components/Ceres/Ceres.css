@@ -1,0 +1,45 @@
+#contenedor-ceres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(#7AECF9, #1DA3B5);
+}
+
+#contenedor-descarga-ceres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedor-descarga-ceres > a {
+  color: white;
+  background: #1d333f;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: all .25s ease-in-out;
+  outline: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+}
+
+#contenedor-descarga-ceres > a:hover {
+  background: black;
+}
+
+#contenedor-descarga-ceres > a:active {
+  background: blue;
+}
+
+#habla-salmon-ceres {
+  opacity: 0;
+  transition: all .25s ease-in-out;
+}
+
+#habla-salmon-ceres .habla-visible {
+  opacity: 1;
+}
