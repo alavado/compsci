@@ -18,7 +18,7 @@ const Ceres = () => {
         <div onMouseOver={() => hablar(true)} onMouseOut={() => hablar(false)} >
           <FontAwesomeIcon icon={faFish} size="6x" />
         </div>
-        <a href="http://abarzuaingenieria.cl/simulador-ceres-bca.exe">Descargar Simulador CERES BCA - IMVIXA</a>
+        <a href="http://abarzuaingenieria.cl/simulador-ceres-bca.zip">Descargar Simulador CERES BCA - IMVIXA</a>
         <a href="https://docs.google.com/document/d/1C-1nUW4ET-PAAAn90KmngnbF0Z5yKcjhzgCHjpO32zY/export?format=pdf">Descargar manual de uso</a>
       </div>
     </div>
