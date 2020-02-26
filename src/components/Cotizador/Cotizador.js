@@ -95,6 +95,7 @@ const Cotizador = () => {
             onClick={() => {
               setCotizar(false)
               setPregunta(0)
+              setTotal(0)
             }}
             id="boton-cerrar-cotizador"
           >
