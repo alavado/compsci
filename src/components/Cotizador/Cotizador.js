@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Cotizador.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes as IconoCerrar } from '@fortawesome/free-solid-svg-icons'
+import axios from 'axios'
 
 const Cotizador = () => {
 
   const [cotizar, setCotizar] = useState(false)
   const [pregunta, setPregunta] = useState(0)
   const [total, setTotal] = useState(0)
+  const [valorUF, setValorUF] = useState(28350)
 
   const preguntas = [
     {
@@ -74,6 +76,11 @@ const Cotizador = () => {
       ]
     }
   ]
+
+  useEffect(() => {
+    axios.get('https://mindicador.cl/api')
+      .then(res => setValorUF(res.data.uf.valor))
+  }, [])
   
   return (
     <div id="cotizador">
@@ -124,7 +131,7 @@ const Cotizador = () => {
             <div className="resultado-cotizacion">
               <p>Por tu proyecto te cobraríamos aproximadamente</p>
               <h2>{total} UF</h2>
-              <h6>(actualmente, ${(total * 28350).toLocaleString('de-DE')})</h6>
+              <h6>(actualmente esto equivale a ${Math.round(total * valorUF).toLocaleString('de-DE')})</h6>
             </div>
             )}
         </div>
