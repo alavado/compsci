@@ -60,3 +60,82 @@
   display: inline-block;
   opacity: 1;
 }
+
+.contenedor-formulario-cotizador {
+  margin-top: 32px;
+  color: white;
+  display: grid;
+  grid-template-columns: 33% 66%;
+  height: 25vh;
+  justify-items: center;
+  align-items: center;
+  animation: aparece-cotizador .25s ease-in-out .35s both;
+}
+
+.contenedor-formulario-cotizador h2 {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+}
+
+.contenedor-formulario-cotizador h2 div {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.contenedor-formulario-cotizador .botones-cotizador {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  gap: 8px;
+}
+
+.contenedor-formulario-cotizador .botones-cotizador button {
+  color: white;
+  background-color: #0C3E45;
+  border: none;
+  padding: 24px;
+  border-radius: 8px;
+  font-family: 'RedHatDisplay', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  animation: aparece-boton .5s ease-in-out both;
+}
+
+.resultado-cotizacion {
+  color: white;
+  margin-top: 32px;
+  animation: aparece-boton .5s ease-in-out both;
+}
+
+.resultado-cotizacion h2 {
+  font-weight: bold;
+  font-size: 64px;
+  margin-top: 32px;
+}
+
+.resultado-cotizacion h6 {
+  margin-top: 32px;
+}
+
+@keyframes aparece-cotizador {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparece-boton {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

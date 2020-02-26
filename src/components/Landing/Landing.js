@@ -35,8 +35,8 @@ const Landing = () => {
             <FontAwesomeIcon icon={faFeather} size="3x" />
             <h1>Cómo lo hacemos</h1>
             <p>
-              Utilizamos nuestro ingenio para intentar presionar
-              las teclas apropiadas tan rápido como sea posible.
+              Dirigimos nuestro ingenio y buenos deseos a intentar presionar
+              las teclas adecuadas tan rápido como sea posible.
             </p>
           </div>
           <div className="tarjeta-hacemos-esto">
@@ -44,8 +44,7 @@ const Landing = () => {
             <h1>Qué dicen nuestros clientes</h1>
             <p>
               Nuestros clientes dicen muchas cosas, como cualquier
-              persona saludable. Sin embargo, siempre es posible que
-              estén todos callados.
+              persona adulta saludable.
             </p>
           </div>
         </div>
