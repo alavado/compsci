@@ -1,0 +1,52 @@
+.contenedor-quienes-somos {
+  font-family: 'RedHatDisplay', sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 32px 64px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.contenedor-quienes-somos > h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 24px;
+  margin-bottom: 48px;
+}
+
+.contenedor-tarjetas-somos-esto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  max-width: 960px;
+}
+
+.contenedor-quienes-somos h1 {
+  color: black;
+}
+
+.tarjeta-somos-esto {
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  padding: 36px;
+  margin-right: 36px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+  color: black;
+}
+
+.tarjeta-somos-esto h1 {
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+.tarjeta-somos-esto p {
+  line-height: 1.5;
+}

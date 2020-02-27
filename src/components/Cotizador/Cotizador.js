@@ -38,7 +38,7 @@ const Cotizador = () => {
       alternativas: [
         {
           enunciado: 'En 1 mes',
-          valor: 100
+          valor: 120
         },
         {
           enunciado: 'En 3 meses',
@@ -63,14 +63,35 @@ const Cotizador = () => {
         },
         {
           enunciado: 'A las personas de mi organización',
-          valor: 60
+          valor: 50
         },
         {
           enunciado: 'A un par de personas que conozco',
-          valor: 30
+          valor: 20
         },
         {
           enunciado: 'Solo a mí',
+          valor: 0
+        }
+      ]
+    },
+    {
+      enunciado: '¿Cuán importante es el aspecto visual para tu proyecto?',
+      alternativas: [
+        {
+          enunciado: 'Debe ser visualmente espectacular',
+          valor: 80
+        },
+        {
+          enunciado: 'Debe ser bastante bonito',
+          valor: 40
+        },
+        {
+          enunciado: 'Me gustaría un aspecto no tan genérico',
+          valor: 20
+        },
+        {
+          enunciado: 'No es muy importante',
           valor: 0
         }
       ]
@@ -133,6 +154,12 @@ const Cotizador = () => {
               <p>Por tu proyecto te cobraríamos aproximadamente</p>
               <h2>{total} UF</h2>
               <h6>(actualmente esto equivale a ${Math.round(total * valorUF).toLocaleString('de-DE')})</h6>
+              <button onClick={() => {
+                setPregunta(0)
+                setTotal(0)
+              }}>
+                Comenzar de nuevo
+              </button>
             </div>
             )}
         </div>

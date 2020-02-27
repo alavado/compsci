@@ -3,6 +3,7 @@ import './Landing.css'
 import Pescaditos from './Pescaditos';
 import Cotizador from '../Cotizador';
 import QueHacemos from './QueHacemos';
+import QuienesSomos from './QuienesSomos';
 // import MenuNavegacion from '../MenuNavegacion';
 
 const Landing = () => {
@@ -23,6 +24,7 @@ const Landing = () => {
         </div>
         <div className="contenedor-flex" style={{ '--posicion': 1 }}>
           <QueHacemos />
+          <QuienesSomos />
         </div>
         <div id="top-bg"></div>
         <div className="bottom-bg"></div>

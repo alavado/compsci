@@ -69,10 +69,6 @@
   margin-top: calc(var(--posicion) * 100vh);
 }
 
-.contenedor-quienes-somos {
-  
-}
-
 #contenedor-logo {
   width: 100%;
   max-width: 1024px;

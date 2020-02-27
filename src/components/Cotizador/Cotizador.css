@@ -89,6 +89,7 @@
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 50%);
   gap: 8px;
+  width: 90%;
 }
 
 .contenedor-formulario-cotizador .botones-cotizador button {
@@ -117,6 +118,20 @@
 }
 
 .resultado-cotizacion h6 {
+  margin-top: 32px;
+}
+
+.resultado-cotizacion button {
+  color: white;
+  background-color: #0C3E45;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-family: 'RedHatDisplay', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  animation: aparece-boton .5s ease-in-out both;
   margin-top: 32px;
 }
 
