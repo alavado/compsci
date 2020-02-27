@@ -34,7 +34,7 @@ const Cotizador = () => {
       ]
     },
     {
-      enunciado: '¿En cuánto tiempo necesitas verlo hecho realidad?',
+      enunciado: '¿En cuánto tiempo te gustaría tenerlo listo?',
       alternativas: [
         {
           enunciado: 'En 1 mes',
@@ -46,7 +46,7 @@ const Cotizador = () => {
         },
         {
           enunciado: 'En 6 meses',
-          valor: 20
+          valor: 30
         },
         {
           enunciado: 'No tengo apuro',
