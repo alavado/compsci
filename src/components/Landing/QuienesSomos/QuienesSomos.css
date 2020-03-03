@@ -1,6 +1,7 @@
 .contenedor-quienes-somos {
   font-family: 'RedHatDisplay', sans-serif;
   background-color: white;
+  background: url('https://www.transparenttextures.com/patterns/ag-square.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +37,7 @@
   padding: 36px;
   margin-right: 36px;
   border-radius: 8px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, .15);
   color: black;
 }
 

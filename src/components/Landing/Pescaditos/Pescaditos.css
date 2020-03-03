@@ -5,7 +5,7 @@
   height: 35vh;
   overflow: hidden;
   animation: mover-agua 2.5s linear infinite;
-  z-index: 20;
+  z-index: 3;
 }
 
 .pescadito {

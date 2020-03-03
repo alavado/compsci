@@ -21,12 +21,16 @@
   margin-top: 0vh;
   height: 28px;
   user-select: none;
+  background-image: url('../../assets/fake-brick.png');
+  z-index: 4;
 }
 
 #interfaz-cotizador.modo-formulario {
   width: 920px;
   margin-top: -50vh;
   height: 90vh;
+  z-index: 2;
+  background-image: url('../../assets/fake-brick.png');
 }
 
 #interfaz-cotizador h1 {
@@ -38,7 +42,7 @@
 }
 
 #interfaz-cotizador.modo-boton:hover {
-  background: #1FA5B7;
+  background-color: #1FA5B7;
 }
 
 #contenedor-cotizacion {

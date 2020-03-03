@@ -1,11 +1,35 @@
 #top-bg {
-  background: linear-gradient(#91BDFF, #91BDFF 10%, #C5F3FF);
+  background:
+    url('../../assets/asfalt-light.png'),
+    linear-gradient(#91BDFF, #91BDFF 10%, #C5F3FF);
   height: 50vh;
+  animation: mover-nubes 240s linear infinite both;
+}
+
+@keyframes mover-nubes {
+  0% {
+    background-position-x: 0vw;
+  }
+  100% {
+    background-position-x: 100vw;
+  }
+}
+
+@keyframes mover-mar {
+  0% {
+    background-position-x: 0vw;
+  }
+  100% {
+    background-position-x: 100vw;
+  }
 }
 
 .bottom-bg {
   height: 50vh;
-  background: linear-gradient(#7AECF9, #1DA3B5);
+  background:
+    url('../../assets/asfalt-light.png'),
+    linear-gradient(#7AECF9, #1DA3B5);
+  animation: mover-mar 120s linear infinite both;
 }
 
 .bottom-bg.overlay {
