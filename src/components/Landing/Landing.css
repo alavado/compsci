@@ -88,3 +88,17 @@
   margin-top: 16px;
   margin-left: 16px;
 }
+
+@media (max-width: 760px) {
+
+  #contenedor-logo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contenedor-logo h1 {
+    margin-top: calc(50vh - 4.75em);
+    font-size: 4.5em;
+  }
+}

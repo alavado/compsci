@@ -154,3 +154,9 @@
     transform: translateY(0px);
   }
 }
+
+@media (max-width: 760px) {
+  #cotizador {
+    display: none;
+  }
+}
