@@ -50,3 +50,21 @@
 .tarjeta-somos-esto p {
   line-height: 1.5;
 }
+
+@media (max-width: 760px) {
+
+  .contenedor-quienes-somos {
+    padding: 32px;
+  }
+
+  .contenedor-tarjetas-somos-esto {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    gap: 16px;
+  }
+
+  .tarjeta-somos-esto {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
