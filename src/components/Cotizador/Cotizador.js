@@ -109,6 +109,7 @@ const Cotizador = () => {
         id="interfaz-cotizador"
         aria-label="cotizar"
         className={cotizar ? 'modo-formulario' : 'modo-boton'}
+        onClick={() => !cotizar && setCotizar(true)}
       >
         <h1 onClick={() => setCotizar(true)}>Cotiza tu proyecto</h1>
         <div id="contenedor-cotizacion">

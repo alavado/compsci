@@ -20,6 +20,7 @@
   width: 330px;
   margin-top: 0vh;
   height: 28px;
+  user-select: none;
 }
 
 #interfaz-cotizador.modo-formulario {
